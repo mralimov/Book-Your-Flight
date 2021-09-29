@@ -1,8 +1,14 @@
 import React from 'react';
+import Nav from './components/Nav/Nav';
+import MainForm from './components/Form/MainForm';
+import FooterNav from './components/Footer/FooterNav';
+
 export const App = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className='body-wrapper'>
+      <Nav />
+      <MainForm />
+      <FooterNav />
     </div>
   );
 };
